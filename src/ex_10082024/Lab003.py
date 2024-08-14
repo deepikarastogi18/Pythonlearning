@@ -13,11 +13,19 @@ print(_)
 _=_+1
 print(_)
 
-#variable name cannot start with special characters and numbers
-#below are invalid names
-#123abc
-#$df
-#&355
+
+"""
+variable name cannot start with special characters and numbers
+Variable names can start with letters (a-z) (A-Z)
+variable names can start with _ followed by zero or more letters
+variables name can have digits
+python is case-sensitive language so A and a are two different variable names
+below are invalid names
+123abc
+$df
+&355
+"""
+
 
 
 #Can check type of vairable by using type
@@ -29,5 +37,6 @@ print(type(name))
 print(type(Isfemale))
 
 Complex_number=2+3j
+#j =root of 1
 print(Complex_number.real)
 print(Complex_number.imag)
